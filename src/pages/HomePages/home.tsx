@@ -56,10 +56,10 @@ export function Home() {
       </p>
       <div>
         <a href="/projects">
-          <Button >Projetos</Button>
+          <Button variant="outline-warning">Projetos</Button>
         </a>
         <a href="/Biography">
-          <Button>Sobre mim</Button>
+          <Button variant="outline-warning">Sobre mim</Button>
         </a>
       </div>
     </HomeContainer>
