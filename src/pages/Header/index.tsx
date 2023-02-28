@@ -10,9 +10,13 @@ export function Header() {
         activeKey="/home"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       >
-        
-        <Button variant="outline-warning"href="/" >Home</Button>
-        <Button variant="outline-warning" href="../Biography">Sobre mim</Button>
+        <Button variant="outline-warning" href="/">
+          Home
+        </Button>
+        <Button variant="outline-warning" href="../Biography">
+          Sobre mim
+        </Button>
+       
         <DropdownButton
           as={ButtonGroup}
           title="Contato"
@@ -29,28 +33,17 @@ export function Header() {
             Linkedin
           </Dropdown.Item>
           <Dropdown.Item
-            onClick={() =>
-              window.open("mailto:caiohmg@gmail.com", "_blank")
-            }
+            onClick={() => window.open("mailto:caiohmg@gmail.com", "_blank")}
           >
             Email
           </Dropdown.Item>
           <Dropdown.Item
-            onClick={() =>
-              window.open(
-                "https://wa.me/5511982813448",
-                "_blank"
-              )
-            }
+            onClick={() => window.open("https://wa.me/5511982813448", "_blank")}
           >
             WhatsApp
           </Dropdown.Item>
           <Dropdown.Item
-            onClick={() =>
-              window.open(
-                "https://github.com/caiohmg","_blank"
-              )
-            }
+            onClick={() => window.open("https://github.com/caiohmg", "_blank")}
           >
             GitHub
           </Dropdown.Item>
