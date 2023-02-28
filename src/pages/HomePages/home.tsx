@@ -1,12 +1,11 @@
 import { Button } from "react-bootstrap";
 import { HomeContainer } from "./styles";
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
+import { Link } from "react-router-dom";
 
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { Link } from "react-router-dom";
-
 import {
   faGithub,
   faLinkedin,
