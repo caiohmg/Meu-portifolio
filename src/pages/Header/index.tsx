@@ -15,7 +15,7 @@ export function Header() {
         <Button variant="outline-warning" href="/">
           Home
         </Button>
-        <Button variant="outline-warning" href="/Biography">
+        <Button variant="outline-warning" href="../Biography">
           Sobre mim
         </Button>
         <DropdownButton
