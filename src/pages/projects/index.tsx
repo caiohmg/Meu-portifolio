@@ -25,7 +25,7 @@ export function Projects() {
       </Card.Body>
       <Button
         variant="outline-warning"
-        href="https://temporizadorignite.netlify.app/p/"
+        href="https://temporizadorignite.netlify.app/"
         target="_blank"
       >
         Visitar
