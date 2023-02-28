@@ -1,10 +1,11 @@
 import { Button } from "react-bootstrap";
 import { HomeContainer } from "./styles";
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
+
+import { TypeAnimation } from 'react-type-animation';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { TypeAnimation } from 'react-type-animation';
 
 
 export function Home() {
