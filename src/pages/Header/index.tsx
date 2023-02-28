@@ -2,8 +2,8 @@ import { ButtonGroup, Dropdown, DropdownButton } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import { HeaderContainer } from "./styles";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-
 
 export function Header() {
   return (
@@ -15,10 +15,9 @@ export function Header() {
         <Button variant="outline-warning" href="/">
           Home
         </Button>
-        <Button variant="outline-warning" href="../Biography">
+        <Button variant="outline-warning" href="/biography">
           Sobre mim
         </Button>
-       
         <DropdownButton
           as={ButtonGroup}
           title="Contato"
