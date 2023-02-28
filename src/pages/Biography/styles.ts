@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const BiographyContainer = styled.div`
   display: grid;
   grid-gap: 20px;

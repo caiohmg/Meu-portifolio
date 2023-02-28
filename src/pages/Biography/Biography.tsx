@@ -1,6 +1,7 @@
-import { BiographyContainer } from "./styles";
+
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
 import { TypeAnimation } from "react-type-animation";
+import { BiographyContainer } from "./styles";
 
 
 
