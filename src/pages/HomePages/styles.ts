@@ -52,4 +52,29 @@ export const HomeContainer = styled.div`
     cursor: pointer;
     color: #6e038c;
   }
+
+  @media (max-width: 768px) {
+  /* Estilos para telas menores do que 768px de largura */
+  h1 {
+    margin-left: 5%;
+  }
+  p {
+    margin-left: 5%;
+    grid-template-columns: 1fr;
+  }
+  img {
+    width: 50%;
+    height: auto;
+    margin: 2rem auto 0;
+  }
+  .icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    margin-left: 5%;
+  }
+}
+
 `;
