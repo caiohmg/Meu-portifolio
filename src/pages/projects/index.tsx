@@ -18,7 +18,7 @@ export function Projects() {
       <Card.Body>
         <h1>Cronômetro de Tarefas</h1>
         <p>
-          {" "}
+          
           Um cronômetro de tarefas é uma ferramenta muito útil para aumentar a
           produtividade e manter o foco nas atividades do dia a dia.
         </p>

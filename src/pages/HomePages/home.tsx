@@ -55,7 +55,7 @@ export function Home() {
         </div>
       </p>
       <div>
-        <a href="../projects">
+        <a href="../projects/index.tsx">
           <Button variant="outline-warning">Projetos</Button>
         </a>
         <a href="../Biography">
