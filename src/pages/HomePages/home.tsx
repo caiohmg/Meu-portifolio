@@ -2,11 +2,16 @@ import { Button } from "react-bootstrap";
 import { HomeContainer } from "./styles";
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
 
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
+import {
+  faGithub,
+  faLinkedin,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 export function Home() {
   return (
@@ -19,7 +24,6 @@ export function Home() {
             "Caio Henrique Moraes!",
           ]}
           speed={10}
-          
         ></TypeAnimation>
       </h1>
       <p>
@@ -55,12 +59,12 @@ export function Home() {
         </div>
       </p>
       <div>
-        <a href="/projects">
+        <Link to="/projects">
           <Button variant="outline-warning">Projetos</Button>
-        </a>
-        <a href="/Biography">
+        </Link>
+        <Link to="/Biography">
           <Button variant="outline-warning">Sobre mim</Button>
-        </a>
+        </Link>
       </div>
     </HomeContainer>
   );
