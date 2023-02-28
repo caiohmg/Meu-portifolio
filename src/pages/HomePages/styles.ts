@@ -22,6 +22,8 @@ export const HomeContainer = styled.div`
   img {
     width: 20rem;
     height: 20rem;
+    margin-top: -3rem;
+    margin-left: 5rem;
 
     border-radius: 50%;
     object-fit: cover;
