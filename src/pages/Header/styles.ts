@@ -23,4 +23,12 @@ justify-content: right;
   margin-right: 3rem;
     
 }
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 0.8rem;
+    justify-content: space-between;
+    margin: 1rem 1rem ;
+  }
+}
+ 
 `;

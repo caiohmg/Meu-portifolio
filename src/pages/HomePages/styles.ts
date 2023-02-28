@@ -60,20 +60,24 @@ export const HomeContainer = styled.div`
   }
   p {
     margin-left: 5%;
+    margin-right: 5%;
     grid-template-columns: 1fr;
   }
   img {
+    
     width: 50%;
     height: auto;
     margin: 2rem auto 0;
   }
   .icons {
     margin-top: 1rem;
+    margin-left: -5%;
     display: flex;
     justify-content: center;
   }
   .btn {
-    margin-left: 5%;
+    margin-top: 1rem;
+    margin-left: 20%;
   }
 }
 
