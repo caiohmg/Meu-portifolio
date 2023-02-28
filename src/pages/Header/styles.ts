@@ -24,11 +24,24 @@ justify-content: right;
     
 }
 @media screen and (max-width: 768px) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  
   .btn {
-    font-size: 0.8rem;
-    justify-content: space-between;
-    margin: 1rem 1rem ;
+    display: none;
+  }
+  
+
+}
+
+@media screen and (max-width: 320px) {
+  .btn-group-vertical>.btn, .btn-group>.btn {
+    font-size: 12px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
   }
 }
+
  
 `;
