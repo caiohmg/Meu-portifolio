@@ -3,7 +3,7 @@ import { HomeContainer } from "./styles";
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { TypeAnimation } from 'react-type-animation';
 
 
@@ -44,6 +44,10 @@ export function Home() {
             </a>
             <a href="https://wa.me/5511982813448" target="_blank">
               <FontAwesomeIcon icon={faWhatsapp} />
+              <span></span>
+            </a>
+            <a href="https://github.com/caiohmg" target="_blank">
+              <FontAwesomeIcon icon={faGithub} />
               <span></span>
             </a>
           </div>

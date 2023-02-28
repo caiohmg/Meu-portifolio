@@ -2,6 +2,8 @@ import { BiographyContainer } from "./styles";
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
 import { TypeAnimation } from "react-type-animation";
 
+
+
 export function Biography() {
   return (
     <BiographyContainer>

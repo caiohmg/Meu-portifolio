@@ -45,6 +45,15 @@ export function Header() {
           >
             WhatsApp
           </Dropdown.Item>
+          <Dropdown.Item
+            onClick={() =>
+              window.open(
+                "https://github.com/caiohmg","_blank"
+              )
+            }
+          >
+            GitHub
+          </Dropdown.Item>
         </DropdownButton>
       </Nav>
     </HeaderContainer>
