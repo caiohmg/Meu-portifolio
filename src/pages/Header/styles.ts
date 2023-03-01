@@ -3,13 +3,17 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
   width: 100%;
   height: 2.5rem;
-  background-color: #1d0259;
+ 
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: right;
 
- 
+  .navbar-toggler{
+    color: #f29f05;
+    background-color: #fff;
+  }
+   
  
 
   .nav-link {
