@@ -6,11 +6,23 @@ import { ProjectsContainer } from "./styles";
 import calendarioCopa from "../../assets/calendarioCopa.svg";
 import appFinancas from "../../assets/Dt.svg";
 import { Button, Container } from "react-bootstrap";
+import { TypeAnimation } from "react-type-animation";
 
 
 export function Projects() {
   return (
       <Container>
+        <ProjectsContainer>
+          
+        <TypeAnimation className="text"
+          sequence={[
+            "Aqui você pode acessar alguns dos meus projetos!",
+            
+          ]}
+          speed={10}
+        ></TypeAnimation>
+        
+      </ProjectsContainer>
      <ProjectsContainer>
     
     <Card>

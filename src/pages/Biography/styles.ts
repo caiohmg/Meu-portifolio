@@ -12,7 +12,6 @@ export const BiographyContainer = styled.div`
     color: #f29f05;
   }
   p {
-    
     margin: 1rem 1rem 1rem 10rem;
     color: white;
     display: grid;
@@ -21,10 +20,22 @@ export const BiographyContainer = styled.div`
   }
   img {
     margin: -1rem 1rem 1rem 10rem;
-    width: 20rem;
-    height: 20rem;
-
+    max-width: 60%;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      margin-left: 2rem;
+    }
+    p {
+      margin: 1rem 2rem;
+      grid-template-columns: 1fr;
+    }
+    img {
+      margin: 1rem auto;
+    }
   }
 `;
