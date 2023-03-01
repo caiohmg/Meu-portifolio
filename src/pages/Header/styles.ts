@@ -11,11 +11,21 @@ display: flex;
 align-items: center;
 justify-content: right;
 
-.btn {
-  color: white;
+.nav-link {
+  
+  color: #f29f05;
   margin-right: 3rem;
-
+  background-color: transparent;
+  transition: all 0.3s ease;
+  border-radius: 7px; 
 }
+
+
+.nav-link:hover {
+  background-color: #f29f05;
+  color: black;
+}
+
 .btn-group-vertical>.btn, .btn-group>.btn {
     position: relative;
     flex: 1 1 auto;
