@@ -54,7 +54,7 @@ export const HomeContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-  /* Estilos para telas menores do que 768px de largura */
+  
   h1 {
     margin-left: 5%;
   }
@@ -67,6 +67,7 @@ export const HomeContainer = styled.div`
     
     width: 50%;
     height: auto;
+    
     margin: 2rem auto 0;
   }
   .icons {
@@ -80,5 +81,34 @@ export const HomeContainer = styled.div`
     margin-left: 20%;
   }
 }
+@media (max-width: 320px) {
+  
+  h1 {
+    margin-left: 5%;
+  }
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 1fr;
+  }
+  img {
+    
+    width: 50%;
+    height: auto;
+    
+    margin: 2rem auto 0;
+  }
+  .icons {
+    margin-top: 1rem;
+    margin-left: -5%;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    margin-top: 1rem;
+    margin-left: 15%;
+  }
+}
+
 
 `;
