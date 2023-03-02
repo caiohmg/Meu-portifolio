@@ -29,7 +29,7 @@ export const HomeContainer = styled.div`
     object-fit: cover;
   }
   .icons {
-  margin-top: -5rem;
+  margin-top: -4rem;
 }
 
 .icons i {
@@ -52,6 +52,40 @@ export const HomeContainer = styled.div`
     cursor: pointer;
     color: #6e038c;
   }
+  
+  @media (max-width: 1024px) {
+  
+  h1 {
+    margin-top: 1rem;
+    margin-left: 10%;
+  }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 1fr 1fr;
+  }
+  img {
+    
+    width: 50%;
+    height: auto;
+    
+    margin: 2rem auto 0;
+  }
+  .icons {
+    margin-top: 0.5rem;
+    margin-left: -2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    
+    margin-top: 1rem;
+    font-size: 12px;
+    padding: 0.25rem 0.5rem;
+    margin-right: -6rem;
+    margin-left: 12rem;
+      }
+}
 
   @media (max-width: 768px) {
   
@@ -77,10 +111,77 @@ export const HomeContainer = styled.div`
     justify-content: center;
   }
   .btn {
+    
     margin-top: 1rem;
-    margin-left: 20%;
-  }
+    font-size: 12px;
+    padding: 0.25rem 0.5rem;
+    margin-right: -6rem;
+    margin-left: 15rem;
+      }
 }
+
+@media (max-width: 425px) {
+  
+  h1 {
+    margin-left: 5%;
+  }
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 1fr;
+  }
+  img {
+    
+    width: 50%;
+    height: auto;
+    
+    margin: 2rem auto 0;
+  }
+  .icons {
+    margin-top: 1rem;
+    margin-left: -5%;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+      font-size: 12px;
+      padding: 0.25rem 0.5rem;
+      margin-right: -4em;
+      margin-left: 10em;
+    }
+}
+@media (max-width: 375px) {
+  
+  h1 {
+    margin-left: 5%;
+  }
+  p {
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 1fr;
+  }
+  img {
+    
+    width: 50%;
+    height: auto;
+    
+    margin: 2rem auto 0;
+  }
+  .icons {
+    margin-top: 1rem;
+    margin-left: -5%;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+      font-size: 12px;
+      padding: 0.25rem 0.5rem;
+      margin-right: -5em;
+      margin-left: 9em;
+    }
+}
+
+
 @media (max-width: 320px) {
   
   h1 {
@@ -105,10 +206,14 @@ export const HomeContainer = styled.div`
     justify-content: center;
   }
   .btn {
-    margin-top: 1rem;
-    margin-left: 15%;
-  }
+      font-size: 12px;
+      padding: 0.25rem 0.5rem;
+      margin-right: -4em;
+      margin-left: 7em;
+    }
 }
+
+  
 
 
 `;

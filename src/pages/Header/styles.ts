@@ -47,6 +47,8 @@ export const HeaderContainer = styled.header`
     color: black;
   }
 
+
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
     align-items: flex-end;
@@ -54,6 +56,7 @@ export const HeaderContainer = styled.header`
 
     .btn {
       display: none;
+      
     }
   }
 
@@ -62,7 +65,7 @@ export const HeaderContainer = styled.header`
     .btn-group > .btn {
       font-size: 12px;
       padding: 0.25rem 0.5rem;
-      margin-right: 5rem;
+      margin-right: 5em;
     }
   }
 `;

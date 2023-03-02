@@ -13,24 +13,27 @@ export function Header() {
         {["xl"].map((expand) => (
           <Navbar expand={expand}>
             <Container fluid>
-              <Navbar.Toggle
+              <Navbar.Toggle 
                 aria-controls={`offcanvasNavbar-expand-${expand}`}
               />
-              <Navbar.Offcanvas
+              <Navbar.Offcanvas 
                 id={`offcanvasNavbar-expand-${expand}`}
                 aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                placement="end"
+                placement="end" 
               >
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Header className="custom-header" closeButton>
+                  <Offcanvas.Title id=
+                  
+                  {`offcanvasNavbarLabel-expand-${expand}`}>
                   </Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
+                </Offcanvas.Header >
+                <Offcanvas.Body >
                   <Nav className="justify-content-end">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="../projects">Projetos</Nav.Link>
                     <Nav.Link href="../Biography">Sobre mim</Nav.Link>
                     <NavDropdown
+                      
                       title="Contato"
                       id={`offcanvasNavbarDropdown-expand-${expand}`}
                     >
