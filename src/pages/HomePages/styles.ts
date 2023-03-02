@@ -153,7 +153,7 @@ export const HomeContainer = styled.div`
 @media (max-width: 375px) {
   
   h1 {
-    margin-left: 5%;
+    margin-left: 7%;
   }
   p {
   
@@ -186,7 +186,7 @@ export const HomeContainer = styled.div`
 @media (max-width: 320px) {
   
   h1 {
-    margin-left: 5%;
+    margin-left: 6%;
   }
   p {
     margin-left: 6%;
