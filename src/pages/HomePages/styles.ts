@@ -156,8 +156,9 @@ export const HomeContainer = styled.div`
     margin-left: 5%;
   }
   p {
-    margin-left: 5%;
-    margin-right: 5%;
+  
+    margin-left: 7%;
+    margin-right: 7%;
     grid-template-columns: 1fr;
   }
   img {
@@ -188,8 +189,8 @@ export const HomeContainer = styled.div`
     margin-left: 5%;
   }
   p {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
     grid-template-columns: 1fr;
   }
   img {
