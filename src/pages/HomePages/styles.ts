@@ -209,12 +209,8 @@ export const HomeContainer = styled.div`
   .btn {
       font-size: 12px;
       padding: 0.25rem 0.5rem;
-      margin-right: -4em;
       margin-left: 7em;
     }
 }
-
-  
-
 
 `;
