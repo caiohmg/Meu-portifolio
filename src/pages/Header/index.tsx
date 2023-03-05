@@ -31,7 +31,7 @@ export function Header() {
                   <Nav className="justify-content-end">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/projects">Projetos</Nav.Link>
-                    <Nav.Link href="/Biography">Sobre mim</Nav.Link>
+                    <Nav.Link href="/biography">Sobre mim</Nav.Link>
                     <NavDropdown
                       
                       title="Contato"
