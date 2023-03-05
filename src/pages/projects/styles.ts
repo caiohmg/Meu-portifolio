@@ -28,6 +28,10 @@ export const ProjectsContainer = styled.div`
     margin-right: 2.5rem;
 
   }
+  .btn.container{
+    margin-left: 5rem;
+  }
+ 
   img {
     border-top-left-radius: 3rem;
     
@@ -42,6 +46,7 @@ export const ProjectsContainer = styled.div`
     font-size: 2em;
     color: #F29F05;
 }
+
 
  
   p{

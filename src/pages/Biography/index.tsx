@@ -2,6 +2,8 @@
 import fotoPerfil from "../../assets/fotoPerfil.png.png";
 import { TypeAnimation } from "react-type-animation";
 import { BiographyContainer } from "./styles";
+import { Link } from "react-router-dom";
+import { Button } from 'react-bootstrap';
 
 
 
@@ -35,6 +37,14 @@ export function Biography() {
         para o desenvolvimento de soluções inovadoras no futuro.
         <img src={fotoPerfil} />
       </p>
+      <div className="btn-container">
+      <Link to="/">
+          <Button variant="outline-warning">Home</Button>
+        </Link>
+        <Link to="../projects">
+          <Button variant="outline-warning">Projetos</Button>
+        </Link>
+        </div>
     </BiographyContainer>
   );
 }
