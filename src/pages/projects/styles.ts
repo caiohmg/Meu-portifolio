@@ -14,11 +14,23 @@ export const ProjectsContainer = styled.div`
   gap: 1rem;
 
   .card{
-    background-color: #050340;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: #1D0259;
     
   }
   .card:hover {
     box-shadow: 0px 0px 10px 0px rgba(242,159,5,0.5);
+  }
+  .btn {
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+
+  }
+  img {
+    border-top-left-radius: 3rem;
+    
   }
  
   h1 {

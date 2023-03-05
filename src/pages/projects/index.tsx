@@ -39,6 +39,7 @@ export function Projects() {
         variant="outline-warning"
         href="https://temporizadorignite.netlify.app/"
         target="_blank"
+        className="btn"
       >
         Visitar
       </Button>
@@ -57,7 +58,7 @@ export function Projects() {
       <Button
         variant="outline-warning"
         href="https://blogignite.netlify.app/"
-        target="_blank"
+        target="_blank" className="btn"
       >
         Visitar
       </Button>
@@ -78,6 +79,7 @@ export function Projects() {
         variant="outline-warning"
         href="https://prismatic-sawine-dbf9d4.netlify.app/"
         target="_blank"
+        className="btn"
       >
         Visitar
       </Button>
@@ -96,6 +98,7 @@ export function Projects() {
           variant="outline-warning"
           href="https://effulgent-gelato-945b73.netlify.app/"
           target="_blank"
+          className="btn"
         >
           Visitar
         </Button>
@@ -110,6 +113,7 @@ export function Projects() {
         variant="outline-warning"
         href="https://financasignite.netlify.app/"
         target="_blank"
+        className="btn"
       >
         Visitar
       </Button>
