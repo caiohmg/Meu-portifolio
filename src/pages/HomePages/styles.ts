@@ -4,6 +4,10 @@ export const HomeContainer = styled.div`
   display: grid;
   align-items: center;
   margin-bottom: 5rem;
+
+  .container {
+  text-align: center;
+}
   h1 {
     margin-top: 10rem;
     margin-left: 10rem;
@@ -42,8 +46,11 @@ export const HomeContainer = styled.div`
 }
 
   .btn {
-  margin-top: -10rem;
-  margin-left: 10rem;
+    display: inline-block;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   }
   svg {
     display: inline-block;
@@ -72,10 +79,10 @@ export const HomeContainer = styled.div`
     margin: 2rem auto 0;
   }
   .icons {
-    margin-top: 0.5rem;
-    margin-left: -2rem;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    font-size: 1.55rem;
+    margin-left: 3rem;
+    margin-right: rem;
   }
   .btn {
     
@@ -112,11 +119,11 @@ export const HomeContainer = styled.div`
   }
   .btn {
     
-    margin-top: 1rem;
-    font-size: 12px;
-    padding: 0.25rem 0.5rem;
-    margin-right: -6rem;
-    margin-left: 15rem;
+    display: inline-block;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin-left: 15rem;
+  margin-right: -3rem;
       }
 }
 
@@ -207,9 +214,11 @@ export const HomeContainer = styled.div`
     justify-content: center;
   }
   .btn {
-      font-size: 12px;
-      padding: 0.25rem 0.5rem;
-      margin-left: 7em;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  margin-left: 5rem;
+  margin-right: -2rem;
+  
     }
 }
 
