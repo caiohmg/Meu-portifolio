@@ -189,7 +189,7 @@ export const HomeContainer = styled.div`
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   
   h1 {
     margin-left: 6%;
@@ -215,8 +215,9 @@ export const HomeContainer = styled.div`
   .btn {
   font-size: 12px;
   padding: 0.25rem 0.5rem;
-  margin-left: 5rem;
-  margin-right: -2rem;
+  
+  margin-left: 5.4rem;
+  
   
     }
 }
