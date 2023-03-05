@@ -216,7 +216,7 @@ export const HomeContainer = styled.div`
   .btn {
   font-size: 12px;
   padding: 0.25rem 0.5rem;
-  margin-left: 5rem;
+  margin-left: 4rem;
   margin-right: -2rem;
   
     }
