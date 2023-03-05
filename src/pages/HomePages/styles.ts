@@ -49,7 +49,7 @@ export const HomeContainer = styled.div`
     display: inline-block;
   font-size: 12px;
   padding: 0.25rem 0.5rem;
-  margin-left: 4rem;
+  margin-left: 10rem;
   margin-right: 4rem;
   }
   svg {
