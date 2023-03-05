@@ -146,7 +146,6 @@ export const HomeContainer = styled.div`
   }
   .icons {
     margin-top: 1rem;
-    margin-left: -5%;
     display: flex;
     justify-content: center;
   }
