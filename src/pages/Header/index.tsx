@@ -1,10 +1,10 @@
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { HeaderContainer } from "./styles";
+
 
 export function Header() {
   return (
@@ -30,8 +30,8 @@ export function Header() {
                 <Offcanvas.Body >
                   <Nav className="justify-content-end">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="projects">Projetos</Nav.Link>
-                    <Nav.Link href="Biography">Sobre mim</Nav.Link>
+                    <Nav.Link href="/projects">Projetos</Nav.Link>
+                    <Nav.Link href="/Biography">Sobre mim</Nav.Link>
                     <NavDropdown
                       
                       title="Contato"
